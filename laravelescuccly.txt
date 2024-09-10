@@ -1,0 +1,15 @@
+ 
+PS C:\docker\docker_react_laravel\web\html\elso> wsl
+root@terem0111:/mnt/c/docker/docker_react_laravel/web/html/elso# pwd
+/mnt/c/docker/docker_react_laravel/web/html/elso
+root@terem0111:/mnt/c/docker/docker_react_laravel/web/html/elso# docker ps
+CONTAINER ID   IMAGE                                          COMMAND                  CREATED        STATUS          PORTS                                                                                  
+                    NAMES
+c590778f1208   react-react                                    "/bin/sh -c 'apachec…"   11 hours ago   Up 29 minutes   0.0.0.0:3001->3000/tcp, [::]:3001->3000/tcp                                            
+                    react-react-1
+4a98158453cb   phpmyadmin/phpmyadmin                          "/docker-entrypoint.…"   11 hours ago   Up 29 minutes   0.0.0.0:8080->80/tcp, [::]:8080->80/tcp                                                
+                    docker_react_laravel-phpmyadmin2-1
+8d49076f7d83   docker_react_laravel-php-apache-environment2   "docker-php-entrypoi…"   11 hours ago   Up 29 minutes   0.0.0.0:3000->3000/tcp, :::3000->3000/tcp, 80/tcp, 0.0.0.0:8000->8000/tcp, :::8000->8000/tcp               php-apache2
+a3c51ca9b3cf   mysql                                          "docker-entrypoint.s…"   11 hours ago   Up 29 minutes   33060/tcp, 0.0.0.0:33060->3306/tcp, [::]:33060->3306/tcp                               
+                    db2
+da3adea41a0a   portainer/portainer-ce:2.21.0                  "/portainer"             12 hours ago   Up 29 minutes   8000/tcp, 0.0.0.0:8100->8100/tcp, :::8100->8100/tcp, 9000/tcp, 0.0.0.0:9443->9443/tcp, :::9443->9443/tcp   portainer
